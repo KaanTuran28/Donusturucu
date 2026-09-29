@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Paketleme çıktıları (PyInstaller)
+build_cikti/
+build/
+dist/
+
+# Araç önbellekleri
+.pytest_cache/
+.ruff_cache/
+*.log
+
+# Kişisel geliştirme/oturum notları (yalnızca yerelde tutulur)
+HAFIZA.md
