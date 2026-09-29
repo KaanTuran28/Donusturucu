@@ -1,0 +1,17 @@
+# Alt sürüm sınırları bilinen güvenlik açıklarını kapatan sürümlerdir
+# (29 Eylül 2026 pip-audit taraması: pillow <12.3 -> 18 açık, pypdf <6.16.1 -> 6 açık,
+# lxml <6.1 -> 1 açık). Güncellerken: python -m pip_audit
+pillow>=12.3.0
+pillow-heif>=1.8.0
+python-docx>=1.2.0
+lxml>=6.1.0
+pypdf>=6.16.1
+pdf2docx>=0.5.13
+reportlab>=5.0.1
+markdown>=3.10
+striprtf>=0.0.33
+odfpy>=1.4.1
+imageio-ffmpeg>=0.6.0
+sv-ttk>=2.6.1
+tkinterdnd2>=0.6.3
+pywin32>=312; sys_platform == "win32"
