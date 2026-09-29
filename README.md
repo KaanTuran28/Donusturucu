@@ -127,3 +127,14 @@ testleri otomatik atlanır.
 - ICO çıktısı 16×16–256×256 piksel arasıdır (format sınırı); 16px'in
   altındaki kaynaklar otomatik büyütülür.
 - Video dönüşümleri dosya boyutuna göre zaman alabilir.
+
+## Lisans
+
+Bu projenin kaynak kodu [MIT lisansı](LICENSE) ile dağıtılır.
+
+Program, kendi lisanslarına tabi üçüncü taraf kütüphaneler kullanır
+(`requirements.txt` ile ayrıca kurulurlar). Özellikle PDF → DOCX için
+kullanılan **pdf2docx**, **PyMuPDF**'e (AGPL-3.0) dayanır; `imageio-ffmpeg`
+ile gelen **ffmpeg** ise GPL lisanslıdır. Programı bu kütüphanelerle
+birlikte paketlenmiş hazır bir .exe olarak dağıtacaksanız bu lisansların
+koşullarına da uymanız gerekir.
